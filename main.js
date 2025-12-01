@@ -1,7 +1,7 @@
 let dark = document.querySelector(".dark");
 let light = document.querySelector(".light");
-
-let elements = document.querySelectorAll("p, a, li, h1, h2, h3, span");
+let hover = document.querySelectorAll(".footer a");
+let elements = document.querySelectorAll("p, a, li, h1, h2, h3, h4, span");
 
 dark.addEventListener("click", (e) => {
   e.preventDefault();
@@ -21,4 +21,7 @@ light.addEventListener("click", (e) => {
   elements.forEach((el) => {
     el.style.color = "black";
   });
+
+  
 });
+

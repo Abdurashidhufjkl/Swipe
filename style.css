@@ -205,7 +205,6 @@ a {
 }
 
 .numbers__container {
-  width: 1740px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -1171,6 +1170,8 @@ a {
 .footer a:hover {
   text-decoration: underline;
 }
+
+
 
 .footer-center {
   display: flex;
